@@ -12,9 +12,7 @@ class Bird(pygame.sprite.Sprite):
         self._layer = Layer.PLAYER
 
         self.images = [
-            assets.get_sprite("redbird-upflap"),
-            assets.get_sprite("redbird-midflap"),
-            assets.get_sprite("redbird-downflap")
+            assets.get_sprite("dodo")
         ]
 
         self.image = self.images[0]
