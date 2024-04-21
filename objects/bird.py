@@ -13,8 +13,6 @@ class Bird(pygame.sprite.Sprite):
 
         self.images = [
             assets.get_sprite("redbird-upflap"),
-            assets.get_sprite("redbird-midflap"),
-            assets.get_sprite("redbird-downflap")
         ]
 
         self.image = self.images[0]
